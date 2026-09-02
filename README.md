@@ -117,3 +117,16 @@ This version is provided as part of the Phan-Site collection and is licensed und
 The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates within the 80–90% range.
 
 This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
+
+
+### [phan-site-10.html](https://github.com/purpleraventv/phansiteprogressbar/blob/main/phan-site-10.html)
+
+**Poll date:** 10/29
+**Question:** Are the Phantom Thieves innocent?
+**Popularity range:** 17–18%
+
+`phan-site-10.html` recreates the Phan-Site poll adopted on 10/29, representing a Phantom Thieves popularity level between 17% and 18%.
+
+The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates within the 17–18% range.
+
+This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
