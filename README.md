@@ -154,3 +154,16 @@ This version is provided as part of the Phan-Site collection and is licensed und
 The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates between 0.7% and 0.9%.
 
 This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
+
+
+### [phan-site-13.html](https://github.com/purpleraventv/phansiteprogressbar/blob/main/phan-site-13.html)
+
+**Poll date:** 12/19
+**Question:** Do the Phantom Thieves really exist?
+**Popularity range:** Around 19%
+
+`phan-site-13.html` recreates the Phan-Site poll adopted on 12/19, representing a Phantom Thieves popularity level around 19%.
+
+The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates between 18.1% and 19.9%.
+
+This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
