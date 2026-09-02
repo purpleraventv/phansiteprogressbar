@@ -143,3 +143,14 @@ The displayed comments are drawn randomly from the poll's comment database and r
 This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
 
 
+### [phan-site-12.html](https://github.com/purpleraventv/phansiteprogressbar/blob/main/phan-site-12.html)
+
+**Poll date:** 12/7
+**Question:** Do you support the Phantom Thieves?
+**Popularity range:** Around 0.8%
+
+`phan-site-12.html` recreates the Phan-Site poll adopted on 12/7, representing a Phantom Thieves popularity level around 0.8%.
+
+The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates between 0.7% and 0.9%.
+
+This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
