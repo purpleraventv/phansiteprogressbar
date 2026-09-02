@@ -1,6 +1,59 @@
-# phansiteprogressbar
+# Phan-Site Progress Bar
 
+## Project Status
 
+**Current status: Alpha**
+
+This project is currently in the **Alpha** stage of development.
+
+The purpose of this project is to create a website-based reflection of the **Phan-Site popularity bar seen throughout the in-game events of Persona 5**. It is designed primarily for **entertainment and aesthetic purposes**, recreating the appearance and behaviour of the in-game Phan-Site polls through HTML, CSS, and JavaScript.
+
+The current Alpha build establishes the core functionality of the project, including:
+
+- The Phan-Site visual design
+- The animated popularity percentage
+- The popularity bar reflecting the displayed percentage out of 100%
+- Rotating user comments
+- The Arsenal font used for the interface
+- Individual versions representing different points in the game
+
+### Development Roadmap
+
+**Alpha — Current**
+
+The basic functionality and visual design are being developed and tested. The existing versions establish the foundation of the project.
+
+**Beta — Accuracy Updates**
+
+During the Beta period, the project will be progressively updated to make the recreations as accurate to the original in-game Phan-Site as possible.
+
+This includes refining:
+
+- Visual elements
+- Typography
+- Animation
+- Percentage behaviour
+- Comment databases
+- Poll questions
+- In-game dates
+- Popularity ranges
+- Individual Phan-Site versions
+
+Additional versions may also be added as the project develops.
+
+**Full Release**
+
+Once development is complete and the recreations have reached a satisfactory level of accuracy, the project will move to a **Full Release**.
+
+The goal of the Full Release is to provide a polished collection of Phan-Site recreations that closely reflect their in-game counterparts.
+
+## Disclaimer
+
+This project is an **unofficial fan-made project** created for entertainment and aesthetic purposes.
+
+It is not intended to replace, modify, or reproduce the original game itself. The project is simply a web-based recreation inspired by the Phan-Site interface featured in *Persona 5*.
+
+Persona 5 and its associated characters, terminology, artwork, and intellectual property belong to their respective copyright holders.
 
 
 
