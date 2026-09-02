@@ -46,3 +46,16 @@ This version is provided as part of the Phan-Site collection and is licensed und
 The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates within the 10–20% range.
 
 This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
+
+
+### [phan-site-04.html](https://github.com/purpleraventv/phansiteprogressbar/blob/main/phan-site-04.html)
+
+**Poll date:** 6/11
+**Question:** Are the Phantom Thieves just?
+**Popularity range:** 20–30%
+
+`phan-site-4.html` recreates the Phan-Site poll adopted on 6/11, representing a Phantom Thieves popularity level between 20% and 30%.
+
+The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates within the 20–30% range.
+
+This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
