@@ -9,9 +9,7 @@
 
 ## Phan-Site Versions
 
-### phan-site-1.html
-
-[svg](https://github.com/purpleraventv/phansiteprogressbar/tree/main#phan-site-01html)
+### [phan-site-01.html](https://github.com/purpleraventv/phansiteprogressbar/blob/main/phan-site-01.html)
 
 **Poll date:** 4/15  
 **Question:** Do you believe in the Phantom Thieves?  
@@ -23,9 +21,7 @@ The displayed comments are drawn randomly from the poll's comment database and r
 
 This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
 
-### phan-site-2.html
-
-[svg](https://github.com/purpleraventv/phansiteprogressbar/tree/main#phan-site-02html)
+### [phan-site-02.html](https://github.com/purpleraventv/phansiteprogressbar/blob/main/phan-site-02.html)
 
 **Poll date:** 4/20
 **Question:** Do you believe in the Phantom Thieves?
