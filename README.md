@@ -9,6 +9,18 @@
 
 ## Phan-Site Versions
 
+### [phan-site-00.html](https://github.com/purpleraventv/phansiteprogressbar/blob/main/phan-site-00.html)
+
+**Purpose:** Developer template
+
+`phan-site-00.html` is a blank copy of the Phan-Site code, intended for developers to adapt to their own purposes.
+
+The template includes the Phan-Site visual design, Arsenal font, animated percentage display, 100%-based popularity bar, and rotating comment system. Developers can modify the poll question, popularity range, and comment database to create their own versions.
+
+This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
+
+
+
 ### [phan-site-01.html](https://github.com/purpleraventv/phansiteprogressbar/blob/main/phan-site-01.html)
 
 **Poll date:** 4/15  
