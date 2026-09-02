@@ -95,3 +95,25 @@ This version is provided as part of the Phan-Site collection and is licensed und
 The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates within the 37–40% range.
 
 This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
+
+
+### [phan-site-08.html](https://github.com/purpleraventv/phansiteprogressbar/blob/main/phan-site-08.html)
+
+**Popularity range:** 60–70%
+
+`phan-site-8.html` recreates the Phan-Site poll immediately after Igor's speech during his Rank 7 Confidant event, representing a Phantom Thieves popularity level between 60% and 70%.
+
+The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates within the 60–70% range.
+
+This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
+
+
+### [phan-site-09.html](https://github.com/purpleraventv/phansiteprogressbar/blob/main/phan-site-09.html)
+
+**Popularity range:** 80–90%
+
+`phan-site-9.html` recreates the Phan-Site poll at a Phantom Thieves popularity level between 80% and 90%.
+
+The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates within the 80–90% range.
+
+This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
