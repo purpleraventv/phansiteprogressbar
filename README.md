@@ -59,3 +59,19 @@ This version is provided as part of the Phan-Site collection and is licensed und
 The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates within the 20–30% range.
 
 This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
+
+
+### [phan-site-05.html](https://github.com/purpleraventv/phansiteprogressbar/blob/main/phan-site-05.html)
+
+**Poll date:** 7/9
+**Question:** Are the Phantom Thieves just?
+**Popularity range:** 35.1–35.9%
+
+`phan-site-5.html` recreates the Phan-Site poll adopted on 7/9 after the deadline for Kaneshiro's Palace, representing a Phantom Thieves popularity level between 35.1% and 35.9%.
+
+The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates within the 35.1–35.9% range.
+
+This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
+
+
+
