@@ -130,3 +130,16 @@ This version is provided as part of the Phan-Site collection and is licensed und
 The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates within the 17–18% range.
 
 This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
+
+
+### [phan-site-11.html](https://github.com/purpleraventv/phansiteprogressbar/blob/main/phan-site-11.html)
+
+**Popularity range:** 0.2–0.6%
+
+`phan-site-11.html` recreates the Phan-Site poll after the protagonist fakes his death, representing a Phantom Thieves popularity level fluctuating between 0.2% and 0.6%.
+
+The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates within the 0.2–0.6% range.
+
+This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
+
+
