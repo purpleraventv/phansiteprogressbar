@@ -2,13 +2,15 @@
 
 ## Project Status
 
-**Current status: Alpha**
+**Current status: Beta — v0.1.0**
 
-This project is currently in the **Alpha** stage of development.
+This project is currently in the **Beta** stage of development.
 
 The purpose of this project is to create a website-based reflection of the **Phan-Site popularity bar seen throughout the in-game events of Persona 5**. It is designed primarily for **entertainment and aesthetic purposes**, recreating the appearance and behaviour of the in-game Phan-Site polls through HTML, CSS, and JavaScript.
 
-The current Alpha build establishes the core functionality of the project, including:
+The project has now moved beyond the initial Alpha build and has entered the **Beta** stage, beginning with **v0.1.0-Beta**. This marks the first release focused on improving the accuracy of the recreations against their in-game counterparts.
+
+The current Beta build includes:
 
 - The Phan-Site visual design
 - The animated popularity percentage
@@ -16,16 +18,21 @@ The current Alpha build establishes the core functionality of the project, inclu
 - Rotating user comments
 - The Arsenal font used for the interface
 - Individual versions representing different points in the game
+- More accurate poll questions and in-game dates
+- More accurate popularity ranges and percentage fluctuations
+- Comment databases based on the corresponding in-game polls
 
 ### Development Roadmap
 
-**Alpha — Current**
+**Alpha — Complete**
 
-The basic functionality and visual design are being developed and tested. The existing versions establish the foundation of the project.
+The Alpha stage established the basic functionality and visual design of the project. It provided the foundation for the Phan-Site recreations and allowed the core HTML, CSS, and JavaScript functionality to be developed and tested.
 
-**Beta — Accuracy Updates**
+**Beta — Current**
 
-During the Beta period, the project will be progressively updated to make the recreations as accurate to the original in-game Phan-Site as possible.
+The project is now focused on improving the accuracy of the Phan-Site recreations.
+
+During the Beta period, individual versions will be refined to make them as accurate to the original in-game Phan-Site as possible.
 
 This includes refining:
 
@@ -217,6 +224,19 @@ This version is provided as part of the Phan-Site collection and is licensed und
 `phan-site-12.html` recreates the Phan-Site poll adopted on 12/7, representing a Phantom Thieves popularity level around 0.8%.
 
 The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates between 0.7% and 0.9%.
+
+This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
+
+
+### [phan-site-12a.html](https://github.com/purpleraventv/phansiteprogressbar/blob/main/phan-site-12a.html)
+
+**Poll date:** 12/7
+**Question:** Do you support the Phantom Thieves?
+**Popularity range:** 8.7–9.4%
+
+`phan-site-12a.html` recreates the Phan-Site poll following the announcement of Shido's calling card, representing a Phantom Thieves popularity level between 8.7% and 9.4%.
+
+The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates within the 8.7–9.4% range.
 
 This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
 
