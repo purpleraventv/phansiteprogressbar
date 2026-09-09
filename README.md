@@ -2,7 +2,7 @@
 
 ## Project Status
 
-**Current status: Beta — v0.2.0**
+**Current status: Beta — v0.3.0**
 
 This project is currently in the **Beta** stage of development.
 
@@ -22,6 +22,7 @@ The current Beta build includes:
 - More accurate popularity ranges and percentage fluctuations
 - Comment databases based on the corresponding in-game polls
 - `phan-site-14.html`, representing the 12/24 Phan-Site state where the Phantom Thieves' popularity reaches 0.0%
+- `phan-site-15.html`, representing the updated 12/24 Phan-Site state following the release of the Velvet Room on the path to the true ending
 
 ### Development Roadmap
 
@@ -49,14 +50,15 @@ This includes refining:
 
 Additional versions may also be added as the project develops.
 
-### v0.2.0-Beta
+### v0.3.0-Beta
 
 This update continues the Beta development of the project and adds a new Phan-Site recreation:
 
-- Added `phan-site-14.html`
-- Added the 12/24 Phan-Site poll
-- Added the 0.0% popularity state
-- Added the no-comment state for this version
+- Added `phan-site-15.html`
+- Added the updated 12/24 Phan-Site state following the release of the Velvet Room on the path to the true ending
+- Added the corresponding 12/24 poll
+- Added the 16.3–16.6% popularity range
+- Added the corresponding comment database
 - Expanded the collection of individual Phan-Site versions
 
 **Full Release**
@@ -276,5 +278,18 @@ This version is provided as part of the Phan-Site collection and is licensed und
 Unlike the other Phan-Site versions, this version contains no comments, reflecting the complete disappearance of the Phantom Thieves from public cognition.
 
 The displayed popularity percentage remains at 0.0%.
+
+This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
+
+
+### [phan-site-15.html](https://github.com/purpleraventv/phansiteprogressbar/blob/main/phan-site-15.html)
+
+**Poll date:** 12/24
+**Question:** Do the Phantom Thieves really exist?
+**Popularity range:** 16.3–16.6%
+
+`phan-site-15.html` recreates the Phan-Site poll on 12/24, following the release of the Velvet Room on the path to the true ending.
+
+The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates between 16.3% and 16.6%.
 
 This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
