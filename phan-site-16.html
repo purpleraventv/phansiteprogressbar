@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&display=swap"
+    rel="stylesheet"
+>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Phan-Site - 100%</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family:
+        "Arsenal",
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background:
+        linear-gradient(
+            135deg,
+            #64121e 0%,
+            #9e2531 45%,
+            #df704e 100%
+        );
+}
+
+
+/* =====================================
+   MAIN PHAN-SITE PANEL
+===================================== */
+
+.phansite {
+
+    position: relative;
+
+    width: min(850px, 85vw);
+    min-height: 300px;
+
+    padding: 40px 40px 30px 105px;
+
+    background: #050505;
+
+    color: white;
+
+    transform: rotate(-1.5deg);
+
+    box-shadow:
+        18px 18px 0 rgba(0, 0, 0, 0.28);
+
+    z-index: 1;
+}
+
+
+/* =====================================
+   GIANT Q
+===================================== */
+
+.q {
+
+    position: absolute;
+
+    left: 10px;
+    top: 5px;
+
+    font-size: 125px;
+    line-height: 1;
+
+    font-weight: 700;
+
+    color: white;
+
+    transform: rotate(3deg);
+
+    z-index: 5;
+}
+
+
+/* =====================================
+   PHAN-SITE TITLE
+===================================== */
+
+.title {
+
+    position: relative;
+
+    display: inline-block;
+
+    padding: 2px 9px 4px;
+
+    background: #050505;
+
+    border: 6px solid white;
+
+    color: white;
+
+    font-size: 52px;
+
+    font-weight: 700;
+
+    line-height: 1;
+
+    letter-spacing: -4px;
+
+    transform: rotate(-7deg);
+
+    z-index: 4;
+}
+
+
+/* =====================================
+   QUESTION
+===================================== */
+
+.question {
+
+    margin-top: 20px;
+    margin-left: 62px;
+
+    font-size: 30px;
+
+    font-weight: 700;
+
+    line-height: 1.1;
+
+    transform: rotate(-1.5deg);
+}
+
+
+.red {
+    color: #ff1010;
+}
+
+
+/* =====================================
+   POLL RESULT
+===================================== */
+
+.result {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 28px;
+
+    margin-top: 35px;
+
+    transform: rotate(-0.7deg);
+}
+
+
+/* =====================================
+   POLL BAR
+===================================== */
+
+.bar-container {
+
+    position: relative;
+
+    flex: 1;
+
+    height: 66px;
+
+    padding: 8px;
+
+    background: white;
+
+    clip-path: polygon(
+        0 10%,
+        100% 0,
+        98% 100%,
+        0 91%
+    );
+}
+
+
+.bar {
+
+    width: 100%;
+
+    height: 100%;
+
+    background: #ff0505;
+}
+
+
+/* =====================================
+   YES LABEL
+===================================== */
+
+.yes {
+
+    position: absolute;
+
+    right: -57px;
+    bottom: -19px;
+
+    font-size: 29px;
+
+    font-weight: 700;
+
+    color: white;
+
+    transform: rotate(-2deg);
+}
+
+
+/* =====================================
+   PERCENTAGE
+===================================== */
+
+.percentage {
+
+    width: 245px;
+
+    font-size: 88px;
+
+    line-height: 0.8;
+
+    font-weight: 700;
+
+    color: #ff0808;
+
+    letter-spacing: -6px;
+
+    white-space: nowrap;
+
+    text-shadow:
+        5px 5px 0 #000;
+}
+
+
+/* =====================================
+   COMMENT AREA
+===================================== */
+
+.comment-container {
+
+    position: relative;
+
+    height: 48px;
+
+    margin-top: 34px;
+
+    margin-left: -10px;
+
+    overflow: hidden;
+}
+
+
+.comment {
+
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    width: 100%;
+
+    font-size: 26px;
+
+    font-weight: 700;
+
+    line-height: 42px;
+
+    white-space: nowrap;
+}
+
+
+.comment.exit {
+
+    animation:
+        commentExit
+        0.28s
+        ease-in
+        forwards;
+}
+
+
+@keyframes commentExit {
+
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-48px);
+        opacity: 0;
+    }
+
+}
+
+
+.comment.enter {
+
+    animation:
+        commentEnter
+        0.28s
+        ease-out
+        forwards;
+}
+
+
+@keyframes commentEnter {
+
+    0% {
+        transform: translateY(48px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 800px) {
+
+    .phansite {
+
+        width: 94vw;
+
+        padding-left: 95px;
+        padding-right: 25px;
+    }
+
+    .q {
+        font-size: 120px;
+    }
+
+    .title {
+        font-size: 38px;
+    }
+
+    .question {
+
+        margin-left: 35px;
+
+        font-size: 22px;
+    }
+
+    .percentage {
+
+        width: 180px;
+
+        font-size: 62px;
+    }
+
+    .yes {
+        font-size: 22px;
+    }
+
+    .comment {
+        font-size: 19px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="phansite">
+
+    <div class="q">
+        Q
+    </div>
+
+
+    <div class="title">
+        Phan-Site
+    </div>
+
+
+    <div class="question">
+
+        Do the Phantom Thieves
+        <span class="red">really exist</span>?
+
+    </div>
+
+
+    <div class="result">
+
+        <div class="bar-container">
+
+            <div
+                class="bar"
+                id="bar">
+            </div>
+
+            <div class="yes">
+                YES
+            </div>
+
+        </div>
+
+
+        <div
+            class="percentage"
+            id="percentage">
+
+            100.0%
+
+        </div>
+
+    </div>
+
+
+    <div class="comment-container">
+
+        <div
+            class="comment enter"
+            id="comment">
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+/* =========================================
+   PHAN-SITE 16
+========================================= */
+
+/*
+    Popularity:
+    100%
+
+    This version represents the Phan-Site
+    reaching full popularity.
+*/
+
+
+const comments = [
+
+    "Anon: # of fans -->",
+    "Anon: back again!",
+    "Anon: DO IT, Phantom Thieves!",
+    "Anon: EPIC. COME. BACK.",
+    "Anon: Fan power levels -->",
+    "Anon: Hey, wake up!",
+    "Anon: payback time!",
+    "Anon: Phantom Thieves <33333",
+    "Anon: Praying for your victory!",
+    "Anon: Q( '_ ' Q) Fight!!",
+    "Anon: stand up!",
+    "Anon: u r our ony hope!",
+    "Anon: we're cheering for you!",
+    "Anon: We believe in you...!",
+    "Anon: We got ur back!",
+    "Anon: you're all we got!!",
+    "Anon: You can't give up now",
+    "Anon: HELL YEAHHHH!"
+
+];
+
+
+const commentElement =
+    document.getElementById("comment");
+
+const percentageElement =
+    document.getElementById("percentage");
+
+const barElement =
+    document.getElementById("bar");
+
+
+let currentComment = -1;
+
+
+/* =========================================
+   RANDOM COMMENT
+========================================= */
+
+function getRandomComment() {
+
+    let nextComment;
+
+    do {
+
+        nextComment =
+            Math.floor(
+                Math.random() *
+                comments.length
+            );
+
+    } while (
+        nextComment === currentComment &&
+        comments.length > 1
+    );
+
+    currentComment = nextComment;
+
+    return comments[nextComment];
+
+}
+
+
+/* =========================================
+   CHANGE COMMENT
+========================================= */
+
+function changeComment() {
+
+    commentElement.classList.remove("enter");
+
+    commentElement.classList.add("exit");
+
+
+    setTimeout(() => {
+
+        commentElement.textContent =
+            getRandomComment();
+
+        commentElement.classList.remove("exit");
+
+        void commentElement.offsetWidth;
+
+        commentElement.classList.add("enter");
+
+    }, 280);
+
+}
+
+
+/* =========================================
+   INITIAL STATE
+========================================= */
+
+percentageElement.textContent =
+    "100.0%";
+
+barElement.style.width =
+    "100%";
+
+commentElement.textContent =
+    getRandomComment();
+
+
+/* =========================================
+   CHANGE COMMENT EVERY 3 SECONDS
+========================================= */
+
+setInterval(
+    changeComment,
+    3000
+);
+
+</script>
+
+</body>
+</html>
