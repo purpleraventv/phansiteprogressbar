@@ -23,6 +23,7 @@ The current Beta build includes:
 - Comment databases based on the corresponding in-game polls
 - `phan-site-14.html`, representing the 12/24 Phan-Site state where the Phantom Thieves' popularity reaches 0.0%
 - `phan-site-15.html`, representing the updated 12/24 Phan-Site state following the release of the Velvet Room on the path to the true ending
+- `phan-site-16.html`, representing the Phan-Site during the final battle against Yaldabaoth, with popularity reaching 100%
 
 ### Development Roadmap
 
@@ -54,11 +55,11 @@ Additional versions may also be added as the project develops.
 
 This update continues the Beta development of the project and adds a new Phan-Site recreation:
 
-- Added `phan-site-15.html`
-- Added the updated 12/24 Phan-Site state following the release of the Velvet Room on the path to the true ending
-- Added the corresponding 12/24 poll
-- Added the 16.3–16.6% popularity range
-- Added the corresponding comment database
+- Added `phan-site-16.html`
+- Added the Phan-Site state during the final battle against Yaldabaoth
+- Added the corresponding comments
+- Added the **100.0% popularity** state
+- Added the full popularity bar
 - Expanded the collection of individual Phan-Site versions
 
 **Full Release**
@@ -291,5 +292,19 @@ This version is provided as part of the Phan-Site collection and is licensed und
 `phan-site-15.html` recreates the Phan-Site poll on 12/24, following the release of the Velvet Room on the path to the true ending.
 
 The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates between 16.3% and 16.6%.
+
+This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
+
+
+### [phan-site-16.html](https://github.com/purpleraventv/phansiteprogressbar/blob/main/phan-site-16.html)
+
+**Poll begins:** During the final battle against Yaldabaoth  
+**Popularity:** 100.0%
+
+`phan-site-16.html` recreates the Phan-Site at the beginning of the final Yaldabaoth fight, when public support for the Phantom Thieves has reached its maximum.
+
+The popularity bar is fixed at **100.0%**, representing the complete return of public support for the Phantom Thieves.
+
+The version includes the corresponding comments from this point in the game, with each comment displayed using the `Anon:` prefix.
 
 This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
