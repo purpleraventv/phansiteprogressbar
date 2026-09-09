@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&display=swap"
+    rel="stylesheet"
+>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Phan-Site - 12/24</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family:
+        "Arsenal",
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background:
+        linear-gradient(
+            135deg,
+            #64121e 0%,
+            #9e2531 45%,
+            #df704e 100%
+        );
+}
+
+
+/* =====================================
+   MAIN PHAN-SITE PANEL
+===================================== */
+
+.phansite {
+
+    position: relative;
+
+    width: min(850px, 85vw);
+    min-height: 300px;
+
+    padding: 40px 40px 30px 105px;
+
+    background: #050505;
+
+    color: white;
+
+    transform: rotate(-1.5deg);
+
+    box-shadow:
+        18px 18px 0 rgba(0, 0, 0, 0.28);
+
+    z-index: 1;
+}
+
+
+.phansite::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 35px;
+    right: -35px;
+    bottom: -28px;
+
+    height: 38px;
+
+    background: #050505;
+
+    clip-path: polygon(
+        0 0,
+        96% 0,
+        100% 100%,
+        4% 100%
+    );
+
+    z-index: -1;
+}
+
+
+/* =====================================
+   GIANT Q
+===================================== */
+
+.q {
+
+    position: absolute;
+
+    left: 10px;
+    top: 5px;
+
+    font-size: 125px;
+    line-height: 1;
+
+    font-weight: 700;
+
+    color: white;
+
+    transform: rotate(3deg);
+
+    z-index: 5;
+}
+
+
+/* =====================================
+   PHAN-SITE TITLE
+===================================== */
+
+.title {
+
+    position: relative;
+
+    display: inline-block;
+
+    padding: 2px 9px 4px;
+
+    margin-left: 0;
+
+    background: #050505;
+
+    border: 6px solid white;
+
+    color: white;
+
+    font-size: 52px;
+
+    font-weight: 700;
+
+    line-height: 1;
+
+    letter-spacing: -4px;
+
+    transform: rotate(-7deg);
+
+    z-index: 4;
+}
+
+
+.title::before {
+
+    content: "";
+
+    position: absolute;
+
+    left: 47%;
+    top: -78px;
+
+    width: 62px;
+    height: 95px;
+
+    background: white;
+
+    clip-path: polygon(
+        48% 0,
+        100% 0,
+        65% 36%,
+        100% 36%,
+        18% 100%,
+        39% 53%,
+        0 53%
+    );
+
+    z-index: -1;
+}
+
+
+/* =====================================
+   QUESTION
+===================================== */
+
+.question {
+
+    margin-top: 20px;
+    margin-left: 62px;
+
+    font-size: 30px;
+
+    font-weight: 700;
+
+    line-height: 1.1;
+
+    transform: rotate(-1.5deg);
+}
+
+
+.red {
+    color: #ff1010;
+}
+
+
+/* =====================================
+   POLL RESULT
+===================================== */
+
+.result {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 28px;
+
+    margin-top: 35px;
+
+    transform: rotate(-0.7deg);
+}
+
+
+/* =====================================
+   POLL BAR
+===================================== */
+
+.bar-container {
+
+    position: relative;
+
+    flex: 1;
+
+    height: 66px;
+
+    padding: 8px;
+
+    background: white;
+
+    clip-path: polygon(
+        0 10%,
+        100% 0,
+        98% 100%,
+        0 91%
+    );
+}
+
+
+.bar {
+
+    width: 16.3%;
+
+    height: 100%;
+
+    background: #ff0505;
+
+    transition:
+        width 0.25s cubic-bezier(.2,.8,.3,1);
+}
+
+
+/* =====================================
+   YES LABEL
+===================================== */
+
+.yes {
+
+    position: absolute;
+
+    right: -57px;
+    bottom: -19px;
+
+    font-size: 29px;
+
+    font-weight: 700;
+
+    color: white;
+
+    transform: rotate(-2deg);
+}
+
+
+/* =====================================
+   PERCENTAGE
+===================================== */
+
+.percentage {
+
+    width: 245px;
+
+    font-size: 88px;
+
+    line-height: 0.8;
+
+    font-weight: 700;
+
+    color: #ff0808;
+
+    letter-spacing: -6px;
+
+    white-space: nowrap;
+
+    text-shadow:
+        5px 5px 0 #000;
+
+    transition:
+        transform 0.12s ease-out;
+}
+
+
+.percentage.bump {
+
+    transform:
+        scale(1.035)
+        rotate(-1deg);
+}
+
+
+/* =====================================
+   COMMENT AREA
+===================================== */
+
+.comment-container {
+
+    position: relative;
+
+    height: 48px;
+
+    margin-top: 34px;
+
+    margin-left: -10px;
+
+    overflow: hidden;
+}
+
+
+.comment {
+
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    width: 100%;
+
+    font-size: 26px;
+
+    font-weight: 700;
+
+    line-height: 42px;
+
+    white-space: nowrap;
+
+    transform: translateY(0);
+
+    opacity: 1;
+}
+
+
+.comment.exit {
+
+    animation:
+        commentExit
+        0.28s
+        ease-in
+        forwards;
+}
+
+
+@keyframes commentExit {
+
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-48px);
+        opacity: 0;
+    }
+
+}
+
+
+.comment.enter {
+
+    animation:
+        commentEnter
+        0.28s
+        ease-out
+        forwards;
+}
+
+
+@keyframes commentEnter {
+
+    0% {
+        transform: translateY(48px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 800px) {
+
+    .phansite {
+
+        width: 94vw;
+
+        padding-left: 95px;
+        padding-right: 25px;
+    }
+
+    .q {
+        font-size: 120px;
+    }
+
+    .title {
+        font-size: 38px;
+    }
+
+    .question {
+
+        margin-left: 35px;
+
+        font-size: 22px;
+    }
+
+    .percentage {
+
+        width: 180px;
+
+        font-size: 62px;
+    }
+
+    .yes {
+        font-size: 22px;
+    }
+
+    .comment {
+        font-size: 19px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="phansite">
+
+    <div class="q">
+        Q
+    </div>
+
+
+    <div class="title">
+        Phan-Site
+    </div>
+
+
+    <div class="question">
+
+        Do the Phantom Thieves
+        <span class="red">really exist</span>?
+
+    </div>
+
+
+    <div class="result">
+
+        <div class="bar-container">
+
+            <div
+                class="bar"
+                id="bar">
+            </div>
+
+            <div class="yes">
+                YES
+            </div>
+
+        </div>
+
+
+        <div
+            class="percentage"
+            id="percentage">
+
+            16.3%
+
+        </div>
+
+    </div>
+
+
+    <div class="comment-container">
+
+        <div
+            class="comment enter"
+            id="comment">
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+/* =========================================
+   PHAN-SITE 15
+========================================= */
+
+/*
+    Poll date:
+    12/24
+
+    Event:
+    After releasing the Velvet Room
+    on the path to the true end.
+
+    Popularity:
+    16.3% - 16.6%
+
+    Comments:
+    Taken from the corresponding poll.
+*/
+
+
+const comments = [
+
+    "Anon: And then, there were none",
+    "Anon: can't someone just fix it?",
+    "Anon: cmon thieves, say something",
+    "Anon: Enjoy prison, Mr. Shido~",
+    "Anon: even shido... FAIL",
+    "Anon: everyone, just disappear",
+    "Anon: Everyone was shameless",
+    "Anon: —GAME OVER—",
+    "Anon: go ahead & celebrate, idiots",
+    "Anon: I feel like an empty husk",
+    "Anon: im just like... so what",
+    "Anon: In the end, who's to blame?",
+    "Anon: i shoulda known better...",
+    "Anon: ive lost my will to live...",
+    "Anon: just destroy this country",
+    "Anon: kill this stupid website",
+    "Anon: my support was a waste",
+    "Anon: Next person please!",
+    "Anon: nobody asked for this",
+    "Anon: no thanks to those thieves",
+    "Anon: nothing changed. boringggg",
+    "Anon: Someone do something!",
+    "Anon: soooo is shido alive?",
+    "Anon: so wait, who do we hate?",
+    "Anon: so what WERE they??",
+    "Anon: The election was a farce.",
+    "Anon: the future's screwed LOL",
+    "Anon: they're harshin my mellow",
+    "Anon: They better settle things",
+    "Anon: thinking hurts my brain",
+    "Anon: this country's done for",
+    "Anon: This is a stain on history",
+    "Anon: this is fucked up...",
+    "Anon: this is going nowhere",
+    "Anon: useless scum",
+    "Anon: we need answers",
+    "Anon: What's with this question?",
+    "Anon: who cares abt the election?",
+    "Anon: why'd we even bother",
+    "Anon: why this. even now???"
+
+];
+
+
+/* =========================================
+   ELEMENTS
+========================================= */
+
+const commentElement =
+    document.getElementById("comment");
+
+const percentageElement =
+    document.getElementById("percentage");
+
+const barElement =
+    document.getElementById("bar");
+
+
+/* =========================================
+   COMMENT STATE
+========================================= */
+
+let currentComment = -1;
+
+
+/* =========================================
+   RANDOM COMMENT
+========================================= */
+
+function getRandomComment() {
+
+    let nextComment;
+
+    do {
+
+        nextComment =
+            Math.floor(
+                Math.random() *
+                comments.length
+            );
+
+    } while (
+        nextComment === currentComment &&
+        comments.length > 1
+    );
+
+    currentComment = nextComment;
+
+    return comments[nextComment];
+
+}
+
+
+/* =========================================
+   CHANGE COMMENT
+========================================= */
+
+function changeComment() {
+
+    commentElement.classList.remove("enter");
+
+    commentElement.classList.add("exit");
+
+
+    setTimeout(() => {
+
+        commentElement.textContent =
+            getRandomComment();
+
+        commentElement.classList.remove("exit");
+
+        void commentElement.offsetWidth;
+
+        commentElement.classList.add("enter");
+
+    }, 280);
+
+}
+
+
+/* =========================================
+   PERCENTAGE
+========================================= */
+
+function updatePercentage() {
+
+    /*
+        The percentage fluctuates strictly
+        between 16.3% and 16.6%.
+
+        It is always displayed to one
+        decimal place.
+    */
+
+    const values = [
+        16.3,
+        16.4,
+        16.5,
+        16.6
+    ];
+
+
+    const value =
+        values[
+            Math.floor(
+                Math.random() *
+                values.length
+            )
+        ];
+
+
+    percentageElement.textContent =
+        value.toFixed(1) + "%";
+
+
+    barElement.style.width =
+        value + "%";
+
+
+    percentageElement.classList.remove("bump");
+
+    void percentageElement.offsetWidth;
+
+    percentageElement.classList.add("bump");
+
+}
+
+
+/* =========================================
+   FIRST COMMENT
+========================================= */
+
+commentElement.textContent =
+    getRandomComment();
+
+
+/* =========================================
+   CHANGE COMMENT EVERY 3 SECONDS
+========================================= */
+
+setInterval(
+    changeComment,
+    3000
+);
+
+
+/* =========================================
+   FLUCTUATE PERCENTAGE
+========================================= */
+
+setInterval(
+    updatePercentage,
+    550
+);
+
+
+/* =========================================
+   INITIAL PERCENTAGE
+========================================= */
+
+updatePercentage();
+
+</script>
+
+</body>
+</html>
