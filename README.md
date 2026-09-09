@@ -2,13 +2,13 @@
 
 ## Project Status
 
-**Current status: Beta — v0.1.0**
+**Current status: Beta — v0.2.0**
 
 This project is currently in the **Beta** stage of development.
 
 The purpose of this project is to create a website-based reflection of the **Phan-Site popularity bar seen throughout the in-game events of Persona 5**. It is designed primarily for **entertainment and aesthetic purposes**, recreating the appearance and behaviour of the in-game Phan-Site polls through HTML, CSS, and JavaScript.
 
-The project has now moved beyond the initial Alpha build and has entered the **Beta** stage, beginning with **v0.1.0-Beta**. This marks the first release focused on improving the accuracy of the recreations against their in-game counterparts.
+The project has now moved beyond the initial Alpha build and has entered the **Beta** stage, focused on improving the accuracy of the recreations against their in-game counterparts.
 
 The current Beta build includes:
 
@@ -21,6 +21,7 @@ The current Beta build includes:
 - More accurate poll questions and in-game dates
 - More accurate popularity ranges and percentage fluctuations
 - Comment databases based on the corresponding in-game polls
+- `phan-site-14.html`, representing the 12/24 Phan-Site state where the Phantom Thieves' popularity reaches 0.0%
 
 ### Development Roadmap
 
@@ -47,6 +48,16 @@ This includes refining:
 - Individual Phan-Site versions
 
 Additional versions may also be added as the project develops.
+
+### v0.2.0-Beta
+
+This update continues the Beta development of the project and adds a new Phan-Site recreation:
+
+- Added `phan-site-14.html`
+- Added the 12/24 Phan-Site poll
+- Added the 0.0% popularity state
+- Added the no-comment state for this version
+- Expanded the collection of individual Phan-Site versions
 
 **Full Release**
 
@@ -250,5 +261,20 @@ This version is provided as part of the Phan-Site collection and is licensed und
 `phan-site-13.html` recreates the Phan-Site poll adopted on 12/19, representing a Phantom Thieves popularity level around 19%.
 
 The displayed comments are drawn randomly from the poll's comment database and rotate every 3 seconds. The displayed popularity percentage fluctuates between 18.1% and 19.9%.
+
+This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
+
+
+### [phan-site-14.html](https://github.com/purpleraventv/phansiteprogressbar/blob/main/phan-site-14.html)
+
+**Poll date:** 12/24
+**Question:** Do the Phantom Thieves really exist?
+**Popularity range:** 0.0%
+
+`phan-site-14.html` recreates the Phan-Site poll on 12/24, after the world and Mementos become one and the Phantom Thieves are removed from the people's cognition, resulting in their popularity falling to 0.0%.
+
+Unlike the other Phan-Site versions, this version contains no comments, reflecting the complete disappearance of the Phantom Thieves from public cognition.
+
+The displayed popularity percentage remains at 0.0%.
 
 This version is provided as part of the Phan-Site collection and is licensed under the MIT License.
