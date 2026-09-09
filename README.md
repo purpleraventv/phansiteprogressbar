@@ -2,7 +2,7 @@
 
 ## Project Status
 
-**Current status: Beta — v0.3.0**
+**Current status: Beta — v0.4.0**
 
 This project is currently in the **Beta** stage of development.
 
@@ -51,7 +51,7 @@ This includes refining:
 
 Additional versions may also be added as the project develops.
 
-### v0.3.0-Beta
+### v0.4.0-Beta
 
 This update continues the Beta development of the project and adds a new Phan-Site recreation:
 
